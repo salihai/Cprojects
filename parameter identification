@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define PI 3.141598
+int main()
+{
+   const int SabitSayi=100;
+   const char sabitKarakter='A';
+   const float sabit_float=25.8;
+   const double Sabit_Double=458.36874;
+
+   char karakter='a';
+   char *Karakter_Dizisi= "Programlama Dersi";
+   int Sayac=25;
+   float Gercel_Sayi1= 0.85;
+   double gercel_Sayi2= 19.05;
+
+   printf("PI%1f \n", PI);
+   printf("sabitKarakter = %C\n",sabitKarakter);
+   printf("Sayac = %d \n", Sayac);
+   printf("Gercel Sayi1 = %f \n", Gercel_Sayi1);
+   printf("Gercel Sayi2 = %1f \n", gercel_Sayi2);
+   printf("Karakter Dizisi = %s \n", Karakter_Dizisi);
+
+   return 0;
+}
